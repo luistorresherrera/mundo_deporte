@@ -1,0 +1,67 @@
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.nav-link:hover {
+    color: #08085E;
+}
+
+.active {
+    font-weight: bold;
+    color: #08085E;
+}
+
+.btn-success {
+    background-color: white;
+    color: #67b607;
+
+    border: 1px solid #67b607;
+}
+
+.btn-success:hover {
+    background-color: #67b607;
+    color: white;
+
+    border: 1px solid #67b607;
+}
+
+.btn-register {
+
+    background-color: white;
+    color: #08085E;
+
+    border: 1px solid #08085E;
+}
+
+.btn-register:hover {
+    background-color: #08085E;
+    color: white;
+
+    border: 1px solid white;
+}
+
+.carousel-inner {
+    height: 700px;
+    background-color: black;
+}
+
+.carousel {
+    height: 700px;
+}
+
+.hero-img {
+    opacity: 40%;
+    height: 700px;
+}
+
+.carousel-caption {
+    bottom: 16.25rem;
+}
+
+.btn-hero {
+    background-color: #67b607;
+    color: white;
+
+    border: 1px solid #67b607;
+}
