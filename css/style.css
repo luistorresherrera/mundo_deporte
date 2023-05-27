@@ -269,3 +269,24 @@ input:checked+.slider:before {
     align-items: center;
 
 }
+
+.olvidecontrasena {
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+
+}
+
+.btn-RegistroLogin {
+    background-color: #08085E;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #08085E;
+}
+
+.btn-RegistroLogin:hover {
+    background-color: #01012e;
+    color: white;
+    border: 1px solid #08085E;
+}
