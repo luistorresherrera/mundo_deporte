@@ -1,0 +1,56 @@
+.carousel {
+
+    @include sizes (100%, 700px);
+
+    &-inner {
+        background-color: black;
+    }
+
+    &-caption {
+        bottom: 16.25rem;
+    }
+}
+
+.hero-img {
+    opacity: 40%;
+    @include sizes (100%, 700px);
+}
+
+
+.hero-style {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    color: white;
+    @include justify-align (center, center);
+}
+
+.bg {
+    &-hero {
+
+        &2 {
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/soccer.jpg");
+            height: 400px;
+            @extend .hero-style;
+
+        }
+
+        &3 {
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/background_login.jpg");
+            height: 700px;
+            @extend .hero-style;
+
+
+        }
+
+    }
+
+    &-footer {
+        height: auto;
+        background-color: black;
+        color: white;
+    }
+
+
+}

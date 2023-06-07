@@ -1,0 +1,55 @@
+.btn {
+    &-success {
+        background-color: white;
+        color: $primary-color;
+        border: 1px solid $primary-color;
+
+        &:hover {
+            background-color: $primary-color;
+            color: white !important;
+
+        }
+    }
+
+    &-register {
+        background-color: white;
+        color: $secondary-color;
+
+        border: 1px solid $secondary-color;
+
+        &:hover {
+            background-color: $secondary-color;
+            color: white !important;
+
+            border: 1px solid white;
+        }
+    }
+
+    &-RegistroLogin {
+        background-color: $secondary-color;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: 1px solid $secondary-color;
+
+        &:hover {
+            background-color: $secondary-color-dark;
+            color: white !important;
+            border: 1px solid $secondary-color-dark
+        }
+    }
+
+    &-hero {
+        background-color: $primary-color;
+        color: white;
+        border: 1px solid $primary-color;
+        transition: 1.5;
+    }
+
+    &:hover {
+        background-color: $primary-color-dark;
+        border: 1px solid $primary-color-dark;
+        color: white !important;
+    }
+
+}

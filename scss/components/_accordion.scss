@@ -1,0 +1,17 @@
+.accordion-button {
+
+    &:hover {
+
+        background-color: #e8e8e8;
+    }
+
+    &:focus {
+
+        background-color: $primary-color;
+        border-radius: 10%;
+        border-color: $primary-color;
+        color: white;
+
+    }
+
+}

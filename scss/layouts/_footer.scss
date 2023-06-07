@@ -1,0 +1,32 @@
+.logofooter img {
+    @include sizes (auto, 50px);
+}
+
+footer {
+
+    li {
+
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        list-style: none;
+        font-size: 14px;
+        color: white;
+
+        &:hover {
+            color: $primary-color;
+        }
+    }
+
+}
+
+.svg-footer {
+    @include sizes (70px, 37px);
+
+    path {
+        fill: $primary-color;
+    }
+
+}
