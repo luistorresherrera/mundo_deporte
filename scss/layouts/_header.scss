@@ -2,6 +2,7 @@
 
     @include sizes (100%, 700px);
 
+
     &-inner {
         background-color: black;
     }
@@ -14,6 +15,7 @@
 .hero-img {
     opacity: 40%;
     @include sizes (100%, 700px);
+
 }
 
 
@@ -50,6 +52,7 @@
         height: auto;
         background-color: black;
         color: white;
+
     }
 
 

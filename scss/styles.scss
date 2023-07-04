@@ -1,17 +1,17 @@
-@import '../scss/base/reset.scss';
-@import '../scss/base/typo.scss';
+@import './base/reset.scss';
+@import './base/typo.scss';
 
-@import '../scss/utilities/variables.scss';
-@import '../scss/utilities/mixins.scss';
+@import './utilities/variables.scss';
+@import './utilities/mixins.scss';
 
-@import '../scss/components/button.scss';
-@import '../scss/components/accordion.scss';
-@import '../scss/components/toggle.scss';
-@import '../scss/components/card.scss';
+@import './components/button.scss';
+@import './components/accordion.scss';
+@import './components/toggle.scss';
+@import './components/card.scss';
 
-@import '../scss/layouts/footer.scss';
-@import '../scss/layouts/forms.scss';
-@import '../scss/layouts/header.scss';
-@import '../scss/layouts/navigation.scss';
-@import '../scss/layouts/modal.scss';
-@import '../scss/layouts/grid.scss';
+@import './layouts/footer.scss';
+@import './layouts/forms.scss';
+@import './layouts/header.scss';
+@import './layouts/navigation.scss';
+@import './layouts/modal.scss';
+@import './layouts/grid.scss';
